@@ -1,0 +1,15 @@
+// styles
+@import 'materialize-css';
+
+.todo {
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__text {
+    &_completed {
+      text-decoration: line-through;
+    }
+  }
+}
